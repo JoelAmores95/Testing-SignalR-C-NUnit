@@ -134,6 +134,9 @@ namespace SeleniumTests
             Thread.Sleep(500);
 
         }
+
+        /* ############ FIN TEST ############# */
+        
         private bool IsElementPresent(By by)
         {
             try

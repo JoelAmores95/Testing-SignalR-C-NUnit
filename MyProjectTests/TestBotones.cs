@@ -204,6 +204,8 @@ namespace SeleniumTests
             Assert.AreEqual(0, listaMensajes.Count, "La lista de mensajes no está vacía después de eliminar todos los mensajes.");
         }
 
+        /* ############ FIN TEST ############# */
+        
         private bool IsElementPresent(By by)
         {
             try
